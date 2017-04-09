@@ -23,13 +23,10 @@ class LiftApp
 
         rescue SystemCallError
         end
-        l.try_move
+        l.moveLift
         sleep(2)
       end
-
     end
-
   end
-
 end
 
